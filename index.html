@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitesi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Web Sitesi</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container mt-5">
+        <h1>Randevu Al</h1>
+        <form id="formRandevu">
+            <div class="mb-3">
+                <label for="selectIslem" class="form-label">İşlem Seçimi</label>
+                <select class="form-select" id="selectIslem">
+                    <option selected disabled>İşlem Seçin</option>
+                    <option value="sac-kestirme">Saç Kestirme</option>
+                    <option value="lazer-epilasyon">Lazer Epilasyon</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="inputTarih" class="form-label">Tarih Seçimi</label>
+                <input type="date" class="form-control" id="inputTarih">
+            </div>
+            <div class="mb-3">
+                <label for="inputSaat" class="form-label">Saat Seçimi</label>
+                <input type="time" class="form-control" id="inputSaat">
+            </div>
+            <div class="mb-3">
+                <label for="inputIsim" class="form-label">İsim</label>
+                <input type="text" class="form-control" id="inputIsim">
+            </div>
+            <div class="mb-3">
+                <label for="inputSoyisim" class="form-label">Soyisim</label>
+                <input type="text" class="form-control" id="inputSoyisim">
+            </div>
+            <div class="mb-3">
+                <label for="inputTelefon" class="form-label">Cep Telefonu</label>
+                <input type="tel" class="form-control" id="inputTelefon">
+            </div>
+            <button type="submit" class="btn btn-primary" id="randevu-al">Randevu Al</button>
+        </form>
+    </section>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

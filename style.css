@@ -1,0 +1,45 @@
+/* general.css */
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #c06c84;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    color: #6c5b7b;
+}
+
+.btn-primary {
+    background-color: #f67280;
+    border-color: #f67280;
+}
+
+.btn-primary:hover {
+    background-color: #6c5b7b;
+    border-color: #6c5b7b;
+}
+
+/* index.html özel stiller */
+body.index {
+    background-color: #f8b195;
+}
+
+/* contact.html özel stiller */
+body.contact {
+    background-color: #355c7d;
+}

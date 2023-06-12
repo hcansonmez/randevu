@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Web Sitesi</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container mt-5">
+        <h1>Data Sayfası</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">İşlem Seçimi</th>
+              <th scope="col">Tarih</th>
+              <th scope="col">Saat</th>
+              <th scope="col">İsim</th>
+              <th scope="col">Soyisim</th>
+              <th scope="col">Numara</th>
+            </tr>
+          </thead>
+          <tbody id="randevuTablosu">
+            <!-- Tabloya verilerin ekleneceği yer -->
+          </tbody>
+        </table>
+      </section>
+      <button id="getir" class="btn btn-primary">Getir</button>
+      
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+    <script src="getir.js"></script>
+</body>
+
+</html>
